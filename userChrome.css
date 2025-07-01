@@ -116,6 +116,10 @@
 	display: none !important;
 }
 
+.tabbrowser-tab .tab-close-button {
+    display: none !important;
+}
+
 .titlebar-spacer,
 .toolbar-growable-space,
 #tabbrowser-tabs+.toolbar-items,
