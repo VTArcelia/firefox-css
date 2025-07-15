@@ -13,6 +13,8 @@ Started with cascade because I liked the one liner, but later found popfox, howe
 
 Before applying please pin whatever extensions you actually use to before or after the tab bar, as there is no way to access most of them if they are click to use, otherwise familiarize yourself with keyboard shortcuts that you choose to use it. this is pretty much a keyboard css. even most of the right click options are just gone. good luck.
 
+Extension Recommendations: Ublock Origin, Some new tab home page of choice (Mine is Tabliss), Password Manager of Choice
+
 Preview:
 ![failed2load1](https://raw.githubusercontent.com/VTArcelia/images/refs/heads/main/1751491468381.png)
 ![failed2load2](https://raw.githubusercontent.com/VTArcelia/images/refs/heads/main/1751491598784.png)
