@@ -254,7 +254,7 @@ user_pref("privacy.clearOnShutdown_v2.cookiesAndStorage", false); // DEFAULT
 user_pref("privacy.clearOnShutdown_v2.historyFormDataAndDownloads", false);
 
 // PREF: enforce DNS-over-HTTPS (DoH)
-user_pref("network.trr.mode", 3);
+user_pref("network.trr.mode", 5);
 
 
 // SMOOTH SCROLLING
@@ -289,18 +289,17 @@ user_pref("extensions.ui.extension.hidden", false);
 user_pref("extensions.ui.locale.hidden", false);
 user_pref("image.jxl.enabled", true);
 user_pref("browser.urlbar.contextualSearch.enabled", false);
-user_pref("network.trr.mode", 3);
 user_pref("identity.fxaccounts.toolbar.pxiToolbarEnabled.relayEnabled", false);
 user_pref("browser.vpn_promo.enabled", false);
 user_pref("identity.fxaccounts.toolbar.pxiToolbarEnabled.vpnEnabled", false);
 user_pref("signon.firefoxRelay.feature", "");
 user_pref("identity.fxaccounts.toolbar.pxiToolbarEnabled.monitorEnabled", false);
-user_pref("media.autoplay.default", 5);
-user_pref("media.autoplay.enabled", false);
+user_pref("media.autoplay.default", 0);
+user_pref("media.autoplay.enabled", true);
 user_pref("browser.urlbar.autoFill", false);
 user_pref("media.videocontrols.picture-in-picture.video-toggle.enabled", true);
 user_pref("extensions.pictureinpicture.enable_picture_in_picture_overrides", true);
-user_pref("media.videocontrols.picture-in-picture.enable-when-switching-tabs.enabled", true);
+user_pref("media.videocontrols.picture-in-picture.enable-when-switching-tabs.enabled", false);
 user_pref("browser.urlbar.maxRichResults", 7);
 user_pref("browser.urlbar.quicksuggest.enabled", false);
 user_pref("browser.newtabpage.activity-stream.feeds.system.topstories", false);
